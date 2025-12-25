@@ -5,6 +5,7 @@
   "scripts": {
     "prebuild": "rimraf --glob out/index.html",
     "build": "marp src --config .marprc.yml -o out/index.html",
+    "postbuild": "node scripts/assets.mjs",
     "start": "marp src --config .marprc.yml --server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@marp-team/marp-cli": "^4.2.3",
     "@marp-team/marp-core": "^4.2.0",
+    "commander": "^14.0.2",
     "markdown-it-attrs": "^4.3.1",
     "markdown-it-container": "^4.0.0",
     "markdown-it-ins": "^4.0.0",
