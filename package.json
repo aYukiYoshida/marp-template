@@ -1,0 +1,27 @@
+{
+  "name": "marp-template",
+  "version": "0.1.0",
+  "description": "A project for Marp template",
+  "scripts": {
+    "prebuild": "rimraf --glob out/index.html",
+    "build": "marp src --config .marprc.yml -o out/index.html",
+    "start": "marp src --config .marprc.yml --server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.2.3",
+    "@marp-team/marp-core": "^4.2.0",
+    "markdown-it-attrs": "^4.3.1",
+    "markdown-it-container": "^4.0.0",
+    "markdown-it-ins": "^4.0.0",
+    "markdown-it-mark": "^4.0.0",
+    "markdown-it-prism": "^2.3.1",
+    "markdown-it-textual-uml": "^0.17.1",
+    "rimraf": "^6.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aYukiYoshida/marp-template.git"
+  }
+}

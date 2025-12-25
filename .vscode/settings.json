@@ -1,0 +1,25 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "markdown.marp.themes": [
+        "themes/global.css",
+        "themes/utility.css"
+    ],
+    "markdown.marp.html": "default",
+    "markdownlint.config": {
+        "MD025": false,
+        "MD033": false
+    },
+    "cSpell.words": [
+        "enduml",
+        "Marp",
+        "marprc",
+        "startuml"
+    ]
+}

@@ -1,0 +1,7 @@
+lang: ja
+theme: themes/global.css
+themeSet: themes/
+size: 16:9
+engine: scripts/engine.mjs
+allowLocalFiles: true
+html: false
